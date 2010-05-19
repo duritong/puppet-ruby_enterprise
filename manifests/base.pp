@@ -1,5 +1,5 @@
 class ruby-enterprise::base {
-    package{'ruby-enterprise',
+    package{'ruby-enterprise':
         ensure => present,
     }
     package{'ruby-enterprise-rubygems':
