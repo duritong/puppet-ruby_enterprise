@@ -1,0 +1,9 @@
+Ruby Enterprise:
+----------------
+
+This module assumes that you can install Ruby Enteprise
+Edition as packages called ruby-enterprise. Furthermore,
+it assumes an installation of REE in /opt/ruby-enterprise.
+
+You can also install gems for Ruby Enterprise Edition in
+an an easy way using ruby-enterprise::gem.
