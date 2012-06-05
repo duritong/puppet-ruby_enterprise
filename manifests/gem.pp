@@ -4,16 +4,16 @@
 # you have to append the version to the gem name:
 #
 #    install a version of mime-types:
-#       ruby-enterpise::gem{'mime-types': }
+#       ruby_enterpise::gem{'mime-types': }
 #
 #    install version 0.0.4 of ruby-net-ldap:
-#       ruby-enterpise::gem{'ruby-net-ldap-0.0.4': }
+#       ruby_enterpise::gem{'ruby-net-ldap-0.0.4': }
 #
 #    uninstall polygot gem (until no such gem is anymore installed):
-#       ruby-enterpise::gem{'polygot': ensure => absent }
+#       ruby_enterpise::gem{'polygot': ensure => absent }
 #
 #    uninstall ruby-net-ldap version 0.0.3
-#       ruby-enterpise::gem{'ruby-net-ldap-0.0.3': ensure => absent }
+#       ruby_enterpise::gem{'ruby-net-ldap-0.0.3': ensure => absent }
 #
 define ruby_enterprise::gem(
     $ensure = 'present'
