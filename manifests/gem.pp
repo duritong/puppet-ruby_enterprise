@@ -15,10 +15,10 @@
 #    uninstall ruby-net-ldap version 0.0.3
 #       ruby-enterpise::gem{'ruby-net-ldap-0.0.3': ensure => absent }
 #
-define ruby-enterprise::gem(
+define ruby_enterprise::gem(
     $ensure = 'present'
 ){
-    include ruby-enterprise
+    include ruby_enterprise
     if $name =~ /\-(\d|\.)+$/ {
         $real_name = regsubst($name,'^(.*)-(\d|\.)+$','\1')
         $ree_gem_version = regsubst($name,'^(.*)-(\d+(\d|\.)+)$','\2')

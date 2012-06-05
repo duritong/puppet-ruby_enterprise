@@ -1,3 +1,3 @@
-class ruby-enterprise::gems::rake {
+class ruby_enterprise::gems::rake {
     package{'ree-rubygem-rake': ensure => present }
 }

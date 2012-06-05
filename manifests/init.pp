@@ -1,3 +1,3 @@
-class ruby-enterprise {
-    include ruby-enterprise::base
+class ruby_enterprise {
+    include ruby_enterprise::base
 }

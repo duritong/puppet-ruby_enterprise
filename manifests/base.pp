@@ -1,4 +1,4 @@
-class ruby-enterprise::base {
+class ruby_enterprise::base {
     package{'ruby-enterprise':
         ensure => present,
     }
